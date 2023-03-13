@@ -1,0 +1,219 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
+
+p {
+  color: rgb(102, 102, 102);
+}
+
+hr {
+  color: rgb(219, 219, 219);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+  align-self: center;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  margin: 0;
+}
+body a {
+  text-decoration: none;
+  color: white;
+  align-self: center;
+  font-size: 2rem;
+}
+body img {
+  align-self: center;
+}
+body nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+  background-color: #0099ff;
+  padding: 2rem;
+  width: 30%;
+}
+body .top-nav {
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  gap: 2rem;
+}
+body .top-nav img {
+  width: 3rem;
+  height: auto;
+}
+body .bottom-nav {
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  gap: 2rem;
+}
+body .bottom-nav img {
+  width: 3rem;
+  height: auto;
+}
+body .nav-title {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  gap: 1rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+header .search-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20rem;
+}
+header .search-container form {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 2rem;
+}
+header .search-container form input {
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 100%;
+  font-size: 1.5rem;
+  background-color: #e4e9ec;
+  margin-right: 1rem;
+}
+header .search-container form button {
+  border: none;
+  border-radius: 5rem;
+  padding: 1rem;
+  background-color: #e4e9ec;
+  color: white;
+  font-size: 1.5rem;
+}
+header .search-container .logos {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  gap: 2rem;
+}
+header .user-greeting {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2rem;
+  justify-content: space-between;
+  padding-right: 2rem;
+}
+header .user-greeting h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+  align-self: center;
+}
+header .user-greeting .greet {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 40%;
+}
+header .user-greeting .greet img {
+  height: 100%;
+}
+header .user-greeting .greet div {
+  font-weight: bolder;
+}
+header .user-greeting .greet div h4 {
+  font-size: 2rem;
+}
+header .user-greeting .buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 40%;
+}
+header .user-greeting .buttons button {
+  border: none;
+  border-radius: 5rem;
+  padding: 1rem;
+  background-color: #0099ff;
+  color: white;
+  font-size: 1.5rem;
+  width: 100%;
+  height: 70%;
+  align-self: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  padding: 3rem;
+  align-items: stretch;
+}
+
+.grid {
+  width: 75%;
+}
+
+.grid-cell {
+  border-left: 1rem solid;
+  border-color: rgb(255, 217, 0);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 3px 3px 5px rgb(212, 212, 212);
+}
+.grid-cell img {
+  width: 2rem;
+  height: auto;
+}
+
+.grid-cell > div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3rem;
+}
+
+.projects-grid {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+.projects-grid h6 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.announcements-trending {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 100%;
+  gap: 3rem;
+}
+
+.announcement-container {
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 3px 3px 5px rgb(212, 212, 212);
+}
+.announcement-container p {
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */
